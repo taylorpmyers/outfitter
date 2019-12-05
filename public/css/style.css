@@ -1,0 +1,247 @@
+html,
+body {
+    height: 100vh;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.material-icons {
+    vertical-align: middle;
+}
+
+.sidenav li>a.signout {
+    width: 40%;
+}
+
+#fileIcon {
+    font-size: 2.5rem;
+}
+
+#preview {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 30px auto;
+}
+
+/* label color */
+.input-field label {
+    color: #000 !important;
+}
+
+/* label focus color */
+.input-field input[type=text]:focus+label {
+    color: #000 !important;
+}
+
+/* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #000 !important;
+    box-shadow: 0 1px 0 0 #000 !important;
+}
+
+/* valid color */
+.input-field input[type=text].valid {
+    border-bottom: 1px solid #9e9e9e !important;
+    box-shadow: none !important;
+}
+
+/* invalid color */
+.input-field input[type=text].invalid {
+    border-bottom: 1px solid #000 !important;
+    box-shadow: 0 1px 0 0 #000 !important;
+}
+
+/* icon prefix focus color */
+.input-field .prefix.active {
+    color: #000 !important;
+}
+
+/* icon prefix focus color */
+.input-field .active {
+    color: #000 !important;
+}
+
+.input:not {
+    color: #000 !important
+}
+
+
+#addClothingSubmit {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+.collapsible {
+    margin: 0;
+}
+
+.tabs {
+    border: 1px solid #ddd;
+}
+
+.tabDiv {
+    /* background: #ddd; */
+    padding: 2px
+}
+
+.tabDiv img {
+    margin: .5px 0px;
+    padding: 0px;
+    border-radius: 5%;
+}
+
+.tabDiv .s3 {
+    padding: 0px 1.5px;
+}
+
+.tabs .tab a:hover {
+    color: #00bcd4;
+    /*Custom Color On Hover*/
+}
+
+.tabs .tab a:focus.active {
+    color: #00bcd4;
+    /*Custom Text Color While Active*/
+    background-color: rgba(38, 166, 154, 0.2);
+    /*Custom Background Color While Active*/
+}
+
+.tabs .indicator {
+    background-color: #00bcd4;
+    /*Custom Color Of Indicator*/
+}
+
+.tabs-fixed-width {
+    max-width: 400px
+}
+
+.tabs-fixed-width .tab {
+    max-width: 79px;
+}
+
+.saveBtn {
+    position: absolute;
+    left: 20px;
+    z-index: 1;
+    bottom: 10px;
+}
+
+.canvasHolder {
+    text-align: center;
+    position: relative;
+}
+
+#createOutfitWrapper {
+    height: calc(100vh - 66px);
+    max-width: 400px;
+    margin: 2px auto 0px;
+}
+
+@media only screen and (max-width: 600px) {
+    #createOutfitWrapper {
+        height: calc(100vh - 56px)
+    }
+}
+
+.activeImg {
+    border: #00bcd4 5px solid
+}
+
+#modal1 .input-field {
+    margin-top: 10px !important;
+}
+
+.selectedHolder {
+    display: inline-block;
+    position: relative;
+}
+
+.deselectClothes {
+    border-radius: 100%;
+    font-size: 1.25rem !important;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#selectedMenuToggle {
+    display: none;
+}
+
+main {
+    padding-left: 300px;
+}
+
+@media only screen and (max-width : 992px) {
+
+    header,
+    main,
+    footer {
+        padding-left: 0;
+    }
+
+    #selectedMenuToggle {
+        display: inline-block;
+    }
+}
+
+#generateCollection {
+    margin: 0;
+}
+
+.generateBtn {
+    margin-top: 15px;
+}
+
+#generateOutfitsImages img {
+    margin: .5px 0px;
+    padding: 0px;
+    border-radius: 5%;
+}
+
+.selectedMain {
+    border: #00bcd4 5px solid
+}
+
+#generatedOutfits {
+    display: none;
+}
+
+.dynamicFloatingBtn {
+    position: absolute;
+    z-index: 1;
+    bottom: 10px;
+}
+
+#tabUl {
+    overflow-x: hidden;
+}
+
+#tabUl li {
+    width: 50%;
+}
+
+.clothing_itemCloset {
+    width: 125px;
+    height: 125px;
+}
+
+.outfitCloset {
+    width: 240px;
+    height: 200px;
+}
+
+#landing {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.thespruce.com/thmb/GGJcwDzc-8r-EOP6Blx72YRSxno=/2840x1894/filters:no_upscale()/182187549-56a7042f5f9b58b7d0e60f0d.jpg")center center / cover no-repeat fixed;
+    height: 80vh;
+}
+
+@media only screen and (max-width : 600px) {
+    .outfitCenter {
+        margin: 10px auto;
+    }
+}

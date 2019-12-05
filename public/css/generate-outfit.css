@@ -1,0 +1,26 @@
+header,
+main,
+footer {
+    padding-left: 300px;
+}
+
+.sidenav2 {
+    top: 64px !important;
+}
+
+@media only screen and (max-width : 992px) {
+
+    header,
+    main,
+    footer {
+        padding-left: 0;
+    }
+
+}
+
+@media only screen and (max-width : 600px) {
+
+    .sidenav2 {
+        top: 0px !important;
+    }
+}
